@@ -3,7 +3,7 @@ import React, {useContext} from 'react';
 const user = {
     name: "Kgopo",
     surname: "Whackman",
-    gender: "niggar gay"
+    gender: "Some Identified Gender"
 }
 
 
