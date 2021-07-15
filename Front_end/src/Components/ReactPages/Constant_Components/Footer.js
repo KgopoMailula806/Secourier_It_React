@@ -5,6 +5,17 @@ import '../../layout/styles/App.css'
 import '../../layout/styles/layout.css'
 
 function Footer(){
+
+    var today = new Date();
+    const date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+
+    const state =  {        
+        date: date,
+        year: today.getFullYear(),
+        month: today.getMonth() + 1,
+        day: today.getDate()
+    };
+
     return ( 
     <div class="wrapper row5">
             <footer id="footer" className="clear"> 
@@ -34,8 +45,9 @@ function Footer(){
                 <h6 className="title">From The Blog</h6>
                 <article>
                     <h2 className="nospace"><a href="#">Praesent Vestibulum</a></h2>
-                    <time className="smallfont" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-                    <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed.</p>
+                    {/* date., 6<sup>th</sup> April 2045 */}
+                    <time className="smallfont" datetime={state.date}> {date}</time>
+                    <p>Todo</p>
                 </article>
                 </div>
                 <div className="one_quarter">
