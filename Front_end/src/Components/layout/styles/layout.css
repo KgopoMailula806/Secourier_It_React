@@ -210,7 +210,6 @@ td{border-width:0 1px;}
 
 .faico a{display:inline-block; width:30px; height:30px; line-height:30px; font-size:16px; text-align:center;}
 .faico a{color:#FFFFFF; background-color:#F3F3F3;}
-
 .faicon-dribble:hover{background-color:#EA4C89;}
 .faicon-facebook:hover{background-color:#3B5998;}
 .faicon-google-plus:hover{background-color:#DB4A39;}
@@ -239,13 +238,13 @@ label span{color:#FF0000; background-color:inherit;}
 /* Rows */
 .row0, .row0 a{color:#888888; background-color:#FFFFFF;}
 .row0{border-color:#D7D7D7;}
-.row1, .row1 a{color:#888888; background-color:#FFFFFF;}
-.row2{color:#FFFFFF; background-color:#161616;}
-.row3{color:#888888; background-color:#FFFFFF;}
+.row1, .row1 a{color:#888888; background-color:#d9e8ff;}
+.row2{color:#FFFFFF; background-color:#5b6878;}
+.row3{color:#888888; background-color:#d9e8ff;}
 .row3 a{color:#EE6D00;}/* Darker Orange */
 .row4{color:#FFFFFF; background-color:#FF8D2C;}
 .row4 a{color:#9D4700;}/* Darker Orange */
-.row5{color:#888888; background-color:#161616;}
+.row5{color:#888888; background-color:#46484a;}
 .row6, .row6 a{color:#888888; background-color:#2F2F2F;}
 
 

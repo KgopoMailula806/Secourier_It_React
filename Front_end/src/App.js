@@ -28,7 +28,7 @@ import  Footer from './Components/ReactPages/Constant_Components/Footer';
 import  Template_Reference_Links from './Components/ReactPages/Constant_Components/Template_Reference_Links'; 
 import  Scripts from './Components/ReactPages/Constant_Components/Scripts';
 import LoginPage from './Components/ReactPages/UserAdmin/Login'
-import Register from './Components/ReactPages/UserAdmin/Register'
+import RegistrationComponent from './Components/ReactPages/UserAdmin/Register'
 
 //contexts 
 import userDetailsContext from "./Components/ReactPages/UserAdmin/userDetails"; //userdetails context
@@ -96,7 +96,7 @@ const App = () => {
                             <LoginPage/>
                           </Route>
                           <Route path='/Register' exact>
-                            <Register/>
+                            <RegistrationComponent/>
                           </Route>                        
                       </Switch>
                     <Footer/>

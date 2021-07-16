@@ -1,10 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react'
 import userDetailsContext from './userDetails';
-import qs from 'qs';
-//import Form from "react-boo";
-//import axios from 'axios';
 
-var state = {}
+const initial_state = {
+}
 
 //PageTracking 
 const PageTracking = () => {
@@ -98,7 +96,7 @@ const Login = () => {
                                                         id="email" 
                                                         aria-describedby="emailHelp" 
                                                         placeholder="Enter email" 
-                                                        value={state.email}
+                                                        value={initial_state.email}
                                                         onChange={handleChange}
                                                     />&nbsp;
                                                 <label >password <span>*</span></label>
@@ -106,7 +104,7 @@ const Login = () => {
                                                         className="form-control" 
                                                         id="password" 
                                                         placeholder="Password"
-                                                        value={login_values.password}
+                                                        value={initial_state.password}
                                                         onChange={handleChange} 
                                                     />&nbsp;                                                  
                                                 <div className='one_third'>
