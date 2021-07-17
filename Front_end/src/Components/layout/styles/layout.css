@@ -266,13 +266,13 @@ label span{color:#FF0000; background-color:inherit;}
 #info .services li:hover{color:#888888; background-color:#FFFFFF;}
 #info .services li:hover article{border-color:#9D4700;}
 #info .services li:hover a{color:#FF8D2C;}
-#info .services li:hover a i{color:#FFFFFF; background-color:#FF8D2C;}
+#info .services li:hover a i{color:#FFFFFF; background-color:#1c1c1c;}
 
 
 /* Footer */
 #footer .title{color:#FFFFFF; border-color:#2F2F2F;}
 #footer input{color:#FFFFFF; background-color:#2F2F2F;}
-#footer button{color:#FFFFFF; background-color:#FF8D2C;}
+#footer button{color:#a79a9a; background-color:#d9e8ff;}
 
 
 /* Navigation */
@@ -296,7 +296,7 @@ label span{color:#FF0000; background-color:inherit;}
 
 
 /* Tables + Comments */
-table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
+table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#797878;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
@@ -384,15 +384,15 @@ table a, #comments a{background-color:inherit;}
 
 /* Amazon Style button */
 .a-button-input {
-    background: #948362;
-    border-color: #a88734 #9c7e31 #846a29;
+    background: #555554;
+    /* border-color: #a88734 #9c7e31 #846a29; */
     color: rgb(168, 166, 166);
 	width: 100px;
 	height: 30px;
 }
 
 .a-button {
-    background: #e7e9ec;
+    background: #8b8c8c;
     border-radius: 3px;
     border-color: #adb1b8 #a2a6ac #8d9096;
     border-style: solid;
